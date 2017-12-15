@@ -22,7 +22,7 @@ body {
 }
 
 img {
-  display: inline-block;
+  display: block;
   width: 100%;
 }
 
@@ -41,28 +41,32 @@ img {
 @media only screen and (min-width: 25em) {
 
   body section img:first-child {
-    display: inline-block;
+    display: block;
     width: 100%;
   }
 
   body section img:nth-child(2) {
-    display: inline-block;
-    width: 49%;
+    display: block;
+    width: 50%;
+    float: left;
   }
 
   body section img:nth-child(3) {
-    display: inline-block;
-    width: 49%;
+    display: block;
+    width: 50%;
+    float: left;
   }
 
   body section img:nth-child(4) {
-    display: inline-block;
-    width: 49%;
+    display: block;
+    width: 50%;
+    float: left;
   }
 
   body section img:nth-child(5) {
-    display: inline-block;
-    width: 49%;
+    display: block;
+    width: 50%;
+    float: left;
   }
 
 }
@@ -70,23 +74,23 @@ img {
 @media only screen and (min-width: 38em) {
 
   body section img:first-child {
-    display: inline-block;
+    display: block;
     width: 100%;
   }
 
   body section img:nth-child(2) {
-    display: inline-block;
-    width: 32%;
+    display: block;
+    width: 33.3333%;
   }
 
   body section img:nth-child(3) {
-    display: inline-block;
-    width: 32%;
+    display: block;
+    width: 33.3333%;
   }
 
   body section img:nth-child(4) {
-    display: inline-block;
-    width: 32%;
+    display: block;
+    width: 33.3333%;
   }
 
   body section img:nth-child(5) {
@@ -98,27 +102,30 @@ img {
 
   body section img:first-child {
     display: inline-block;
-    width: 70%;
+    width: 66.6666%;
+    float: left;
   }
 
   body section img:nth-child(2) {
     display: inline-block;
-    width: 29%;
+    width: 33.3333%;
+    float: left;
   }
 
   body section img:nth-child(3) {
     display: inline-block;
-    width: 32%;
+    width: 33.3333%;
   }
 
   body section img:nth-child(4) {
     display: inline-block;
-    width: 32%;
+    width: 33.3333%;
+
   }
 
   body section img:nth-child(5) {
     display: inline-block;
-    width: 32%;
+    width: 33.3333%;
   }
 
 }
